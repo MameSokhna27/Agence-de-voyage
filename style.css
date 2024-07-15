@@ -1,0 +1,116 @@
+
+nav{
+    background-color: black;
+    color: blue;
+    display: flex;
+}
+nav ul li{
+    display: inline-block;
+    margin-top: 15px;
+    list-style: none;
+    padding: 10px;
+   margin-right: 0px;
+   font-weight: bold;
+}
+.nom{
+    margin-right: 50%;
+    margin-left: 3%;
+  
+}
+.heros{
+    height: 500px;
+    background-image: url(imgvoy.jpg);
+    background-repeat: no-repeat;
+   
+}
+.passport{
+   height: 300px;
+   width: 400px;
+}
+.bb{
+    font-family: roboto;
+    font-style: italic;
+    padding-left: 45%;
+    padding-bottom: 0%;
+    color: antiquewhite;
+    font-weight: bold;
+
+}
+.exp{
+    position: absolute;
+    left: 35%;
+    bottom: 22%;
+    color: black;
+    text-align: center;
+    background-color:  azure;
+
+}
+.bouton{
+    padding-top: 4%;
+    padding-left: 50%;
+}
+.row{
+    border: 2px solid blue;
+    align-items: center;
+    
+    
+
+}  
+.photo{
+    position: relative;
+    width: 250px;
+    height: 150px;
+    top: 10px;
+}
+.card-title{
+    padding-top: 3%;
+    
+}
+.card-text{
+    
+    margin: 0 auto;
+    text-align: justify;
+}
+.accordéon{
+    background-color: skyblue;
+    border: 1px solid;
+    
+}
+.accordion-button{
+    font-size: 20px;
+    margin-left: 2%;
+    
+}
+.sect4{
+    text-align: center;
+    font-weight: bold;
+}
+.formulaire{
+    border-spacing: 20px;
+    line-height: 20px;
+    font-size: large;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+.rounded{
+    border-radius: 15px;
+    width: 500px;
+    color: black;
+}
+.forme{
+  text-align: center;
+  background-color: skyblue;
+ border: 1px solid ;
+   
+}
+.pied{
+    background-color: black;
+    color: skyblue;
+    text-align: center;
+}
+.nous{
+    font-weight: bold;
+   margin-left: 0%;
+}

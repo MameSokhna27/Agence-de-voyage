@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="Fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de voyage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!--section en tête-->
+    <section class="tête">
+        <nav id="Accueil" >
+            <div class="nom">
+                <h2>LO Agency</h2>
+            </div>
+
+            <div class="header">
+                <ul class="navbar-nav">
+                    <li><a href="#Accueil">Accueil</a></li>
+                    <li><a href="#Destinations">Destinations</a></li>
+                    <li><a href="#Circuits">Circuits</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                   
+                    
+                </ul>
+            </div>
+        </nav>
+    
+    </section>
+    
+<!--section héros-->
+<section class="heros" >
+  
+    <div class="banner">
+        <img class="passport" src="passeport.jpg" alt="">
+        <h1 class="bb">BIENVENUE</h1>
+        <p  class="exp">Une expérience unique avec LO Agency, votre satisfaction notre priorité !</p>
+             
+    </div>
+    <div class="bouton">
+        <button type="button" class="btn btn-primary">NOUS APPELER</button>
+    </div>
+</section>
+
+<!--Rubrique3-->
+<section id="Destinations" >
+<div class="container-fluid"> 
+<div class="row">
+    <div class="col-md-4">
+            <div>
+                <img class="photo" src="Ethiopie.jpg" alt="">
+                <h4 class="card-title">Ethiopie</h4>
+                <p class="card-text">L'Éthiopie, située sur la Corne de l'Afrique, est un pays enclavé et aride, traversé par la vallée du grand rift. Avec des découvertes archéologiques remontant à plus de 3 millions d'années, cette région est riche d'une culture ancestrale.</p>
+                <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+    </div>
+   
+    <div class="col-md-4">
+        <div>
+            <img class="photo" src="makka.jpg" alt="">
+            <h4 class="card-title">Mecque</h4>
+            <p class="card-text">La Mecque est la ville la plus sainte de l'Islam et est la ville natale de Mouhamed. 
+              Seuls les musulmans sont autorisés dans la ville, et des millions d'entre eux s'y rendent pour le Hajj annuel (pèlerinage).</p>
+            <a  href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
+</div>
+<div class="col-md-4">
+    <div>
+        <img class="photo"src="usa.jpg" alt="">
+        <h4 class="card-title">USA</h4>
+        <p class="card-text">Les États-Unis sont un pays constitué de 50 états et couvrant une vaste portion de l'Amérique du Nord, 
+        
+          New York est la principale ville de la côte atlantique, centre international financier et culturel, et Washington est la capitale.</p>
+        <a href="#" class="btn btn-primary">En savoir plus</a>
+    </div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!--Rubrique 4 accordion-->
+<section class="accordéon" id="Circuits">
+
+  <div class="sect4">
+    <h4>Forfait/Package</h4>
+    <p>NB: Tous les packages peuvent être modifier selon vos besoins</p>
+</div>
+<!--forfait Ethiopie-->
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+         Forfait Ethiopie
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Pour ce package de 10 jours à Addis Abeba, vous aurez un billet aller/retour plus un guide qui vous accompagnera pour certaines visites.
+          Hébergement hôtel quatre étoiles inclus, le petit déjeuner et le dîner sont offerts.
+          Un véhicule climatisé sera mis à votre disposition entre l'aéroport, l'hôtel et les villes.
+        </br><code>Tarif: 1.500.000 FCFA</code>
+        <strong><p><a class="link-opacity-10" href="#">Afficher les détails</a></p>
+        </strong></div>
+      </div>
+    </div>
+    <!--forfait mecque-->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Forfait Mecque
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Pour ce package, vous aurez un billet aller/retour 5jours à la mecque et 5jours à Médine. 
+          Un bus climatisé sera mis à votre disposition entre l'aéroport, l'hôtel et les villes 
+          plus un guide qui vous accompagnera partout.
+          Hébergement hôtel 3étoiles, le petit déjeuner et le dîner sont offerts.
+          
+        </br><code>Tarif: 2.000.000 FCFA</code> 
+        <strong><p><a class="link-opacity-10" href="#">Afficher les détails</a></p>
+        </strong>
+          </div>
+      </div>
+    </div>
+    <!--forfait USA-->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Forfait Etats-Unis
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          Pour ce package, vous aurez un billet aller/retour 5jours à New-York, 4jours à Cincinnati et 3jours à Rock-Eyland.
+          Un véhicule climatisé sera mis à votre disposition entre l'aéroport, l'hôtel et les villes 
+          plus un guide qui vous accompagnera partout.
+          Hébergement hôtel 3étoiles, le petit déjeuner et le dîner sont offerts.
+          
+        </br><code>Tarif: 3.500.000 FCFA</code> 
+           
+           <strong><p><a class="link-opacity-10" href="#">Afficher les détails</a></p>
+           </strong>
+          </div>
+      </div>
+    </div>
+
+</section>
+
+<!--5 formulaire-->
+<section class="forme" id="Contact" >
+  
+<h5 class="nous" >Nous Contacter</h5>
+  
+  <form class="formulaire">
+    <label>Name:</label>
+    <br/><input class="rounded" type="text"/>
+        
+    <br/> <label>Email:</label>
+    <br /><input class="rounded" type="text"/>
+   
+    <br/> <label>Destination:</label>
+    <br /><input class="rounded" type="text"/>
+   
+    <br/><label>Message:</label>
+    <br /><textarea class="rounded" rows="4" ></textarea>
+    
+    <br/><button class="rounded" type="button" row="3">Envoyer</button>
+  </form>
+
+</section>
+
+<!--footer-->
+<section>
+  <footer class="pied" >
+    
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-square-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+
+  
+  <p>LO Agency
+    Adresse: Ndiang, Louga
+    Téléphone: 338670465
+  </p>
+  <p>Tous droits réservés</p>
+
+
+  </p>
+  </footer>  
+   
+  </section>
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
